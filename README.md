@@ -1,12 +1,83 @@
-# React + Vite
+# 🕒 Digital Clock App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant **React-based Digital Clock** that updates every second and displays the current time in a **12-hour format (AM/PM)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⏱️ Real-time updating every second  
+- 🌓 12-hour format with AM/PM indicator  
+- ⚛️ Built using **React Hooks** (`useState`, `useEffect`)  
+- 🎨 Minimal, responsive UI styling with CSS  
+- 🔁 Auto cleanup of intervals to prevent memory leaks  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Project Structure
+
+```
+📂 digital-clock-app
+ ┣ 📜 App.css
+ ┣ 📜 DigitalClock.jsx
+ ┣ 📜 main.jsx
+ ┣ 📜 index.css
+ ┣ 📜 App.jsx
+ ┗ 📜 package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ypasindu/digital-clock-app.git
+   cd digital-clock-app
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the app:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser:**
+   ```
+   http://localhost:5173/
+   ```
+
+---
+
+## 💡 How It Works
+
+- The app initializes the state with the current `Date` object.  
+- Using `setInterval`, it updates the state every 1000 milliseconds (1 second).  
+- The `formatTime()` function converts the time into a readable **12-hour format** with zero-padding.  
+- The UI updates automatically as the React state changes.
+
+---
+
+**## 🧠 Technologies Used
+
+- **React 18+**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS3****
+
+---
+
+
+## 👨‍💻 Author
+
+**Your Name**  
+📧 your.email@example.com  
+🌐 (https://github.com/pasinduhasalanka/Digital_Clock_App))
+
+---
+
+
