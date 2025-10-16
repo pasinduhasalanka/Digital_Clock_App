@@ -32,7 +32,8 @@ A simple and elegant **React-based Digital Clock** that updates every second and
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ypasindu/digital-clock-app.git
+   https://github.com/pasinduhasalanka/Digital_Clock_App
+   git clone https://github.com/pasinduhasalanka/Digital_Clock_App.git
    cd digital-clock-app
    ```
 
